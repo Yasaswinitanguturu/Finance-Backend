@@ -47,12 +47,12 @@ The server will initialize the database and start listening on `http://localhost
 ##  Role-Based Access Control (RBAC)
 
 Access is managed via request headers. The system validates both the **User Role** and the **Account Status** before processing any request.
-
+```text
 | Role | Permissions |
 | **Admin** | Full Access: Can add new records and view all dashboard summaries. |
 | **Analyst** | View Access: Can view all records and the dashboard summary. |
 | **Viewer** | Restricted Access: Can only view the list of individual records. |
-
+```
 > **Security Note:** If the header `status: inactive` is provided, the request is immediately rejected with a **403 Forbidden** error, regardless of the role.
 
 ##  API Endpoints
