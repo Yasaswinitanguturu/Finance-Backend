@@ -3,23 +3,23 @@ A robust Node.js and SQLite-based backend built to manage financial transactions
 
 ##  Project Structure
 
+```text
 FINANCE-BACKEND-ASSESSMENT/
 ├── node_modules/
 ├── src/
 │   ├── config/
-│   │   └── db.js              # Database connection & schema initialization
+│   │   └── db.js              # Database connection & schema
 │   ├── controllers/
-│   │   ├── dashboardController.js  # Logic for financial analytics & summaries
-│   │   └── recordController.js     # Logic for transaction CRUD operations
+│   │   ├── dashboardController.js  # Analytics logic
+│   │   └── recordController.js     # Transaction logic
 │   ├── middleware/
-│   │   └── roleauth.js         # Security layer for RBAC & status validation
+│   │   └── roleauth.js         # RBAC & Status validation
 │   └── routes/
-│       ├── dashboardRoutes.js  # API endpoints for analytics
-│       └── recordRoutes.js     # API endpoints for financial records
-├── finance.db                  # SQLite database file (auto-generated)
-├── package.json                # Project dependencies & scripts
-├── .gitignore                  # Files to exclude from version control
-└── server.js                   # Application entry point & server setup
+│       ├── dashboardRoutes.js  # Analytics routes
+│       └── recordRoutes.js     # Transaction routes
+├── finance.db                  # SQLite database
+├── package.json                # Dependencies & scripts
+└── server.js                   # Entry point
 
 ##  Getting Started
 
