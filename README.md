@@ -20,7 +20,7 @@ FINANCE-BACKEND-ASSESSMENT/
 ├── finance.db                  # SQLite database
 ├── package.json                # Dependencies & scripts
 └── server.js                   # Entry point
-'''
+```
 ##  Getting Started
 
 ### 1. Installation
