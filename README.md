@@ -25,23 +25,23 @@ FINANCE-BACKEND-ASSESSMENT/
 
 ### 1. Installation
 Install the required production dependencies and the development tool (**Nodemon**):
-
+```
 npm install express sqlite3 sqlite
 npm install --save-dev nodemon
-
+```
 
 ### 2. Running the Application
 
 **Development Mode (Recommended):**
 Uses nodemon to automatically restart the server when you save changes.
-
+```
 npm run dev
-
+```
 **Production/Standard Mode:**
 Starts the server using the standard Node.js command.
-
+```
 node server.js
-
+```
 The server will initialize the database and start listening on `http://localhost:3000`.
 
 ##  Role-Based Access Control (RBAC)
